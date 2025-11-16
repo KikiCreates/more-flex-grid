@@ -1,5 +1,5 @@
 /*
-    Name: 
+    Name: Kiara Peterson
 */
 
 :root{
@@ -72,6 +72,9 @@ header{
     background-clip: border-box;
     background-position: right;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
 }
@@ -135,6 +138,9 @@ nav{
 nav ul{
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
 }
@@ -163,6 +169,8 @@ nav a svg{
 nav a span{
     display: block;
     position: relative;
+    top: -135px;
+    z-index: 2;
     /* Styles were added here to arrange the content, I used top and z-index for this */
     /* TO DO */
 }
@@ -222,6 +230,7 @@ p{
 #plants{
     background-color: var(--wht);
     padding: 96px 32px;
+    display: grid;
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
 }
