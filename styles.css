@@ -286,6 +286,10 @@ p{
     padding: 64px 32px;
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto 1fr;
+    gap: 32px;
 }
 
 /* Contact Heading and Paragraph */
@@ -379,16 +383,19 @@ th:nth-of-type(even), td:nth-of-type(even){
 #social ul{
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
+    display: flex;
     width: fit-content;
     margin: 16px auto;
     list-style-type: none;
     padding: 0;
+    gap: 32px; 
 }
 
 /* Heading for Social Media Section */
 #social h4{
     /* Styles were added here to arrange the content, these are grid children styles */
     /* TO DO */
+    display: grid;
 }
 
 #social a{
